@@ -149,6 +149,7 @@ dependencies {
     implementation "androidx.recyclerview:recyclerview:${ANDROID_X_VERSION}"
     implementation "androidx.preference:preference:${ANDROID_X_VERSION}"
     implementation project(':IconLoader')
+    implementation 'org.lineageos:platform.sdk:5.+'
     withQuickstepImplementation project(':SharedLibWrapper')
 
     // Recents lib dependency
